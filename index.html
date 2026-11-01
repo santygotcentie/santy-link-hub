@@ -40,7 +40,7 @@ section.content{padding:36px 0 45px;scroll-margin-top:80px}.head{display:flex;ju
 <div id="loadMessage" class="error">Connect your Google Apps Script public API URL to load live content. See README.md in the download.</div>
 </main><footer><div class="wrap foot"><span><strong style="color:#ff7c9d">SANTY.</strong> Made with a little love and a lot of late nights 🥀</span><span>© <span id="year"></span> Santy · All good vibes reserved.</span></div></footer>
 <script>
-const PUBLIC_API_URL = "PASTE_PUBLIC_API_WEB_APP_URL_HERE"; // Ends in /exec
+const PUBLIC_API_URL = "https://script.google.com/macros/s/AKfycbxuKGblMu69BiVC3jeeiJ5tYvVXHzA4yW_cx9mTUI0qBmbDLnfUGomFUe-NNjEvrlmX1A/exec"; // Ends in /exec
 const $ = id => document.getElementById(id);
 for(let i=0;i<65;i++){let s=document.createElement('i');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.animationDelay=Math.random()*4+'s';s.style.animationDuration=(2+Math.random()*4)+'s';$('stars').appendChild(s)}
 $('theme').addEventListener('click',()=>{document.documentElement.classList.toggle('light');$('theme').textContent=document.documentElement.classList.contains('light')?'☾ / ☼':'☼ / ☾'});
